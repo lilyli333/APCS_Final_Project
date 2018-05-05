@@ -1,4 +1,4 @@
-package Assignment;
+package Events;
 
 public class Assignment {
 
