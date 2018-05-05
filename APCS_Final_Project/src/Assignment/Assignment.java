@@ -4,17 +4,17 @@ public class Assignment {
 
 	private int timeLimit;
 	private boolean isCompleted;
-	private int pointsPossible;
 	private String title;
 	private int priority;
+	private int pointsPossible;
 	
-	public Assignment(int time, boolean isDone, int points, String name, int stars)
+	public Assignment(int time, boolean isDone, String name, int stars)
 	{
 		timeLimit = time;
 		isCompleted = isDone;
-		pointsPossible = points;
 		title = name;
 		priority = stars;
+		pointsPossible = stars * 10;
 	}
 
 	public int getTimeLimit() {
