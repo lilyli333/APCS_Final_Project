@@ -1,5 +1,9 @@
 package College;
-
+/**
+ * 
+ * @author lilili
+ *
+ */
 public class GPACalc {
 	
 	public static double weightedGPA(int a, int b, int c, int d, int f, int honor) {
