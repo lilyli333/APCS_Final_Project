@@ -6,13 +6,15 @@ public class Assignment {
 	private boolean isCompleted;
 	private int pointsPossible;
 	private String title;
+	private int priority;
 	
-	public Assignment(int time, boolean isDone, int points, String name)
+	public Assignment(int time, boolean isDone, int points, String name, int stars)
 	{
 		timeLimit = time;
 		isCompleted = isDone;
 		pointsPossible = points;
 		title = name;
+		priority = stars;
 	}
 
 	public int getTimeLimit() {
