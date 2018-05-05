@@ -18,7 +18,7 @@ public class Database {
 
 	public static String name; 
 	public static double GPA;
-	public static int SAT;
+	public static int SAT, point;
 
 	public static void writeToDatabase(String[] userLines) 
 	{
@@ -45,15 +45,39 @@ public class Database {
 			}
 
 		}
-		getDatabase();
+		setUpDatabase();
 
 	}
-
-	private static void getDatabase() {
+	
+	public static ArrayList<String> getDatabase() {
 		Scanner scan = null;
 		String line;
 		ArrayList<String> str = new ArrayList<String>();
-;
+
+		try {
+			FileReader reader = new FileReader("Database.txt");
+			BufferedReader bReader = new BufferedReader(reader);
+			scan = new Scanner(bReader);
+
+			while(scan.hasNextLine()) {
+				line = new String(scan.nextLine());
+
+				str.add(line);
+			}
+		}catch (IOException e){
+			e.printStackTrace();
+		}
+		finally {
+			if(scan != null)
+				scan.close();
+		}
+		return str;
+	}
+
+	private static void setUpDatabase() {
+		Scanner scan = null;
+		String line;
+		ArrayList<String> str = new ArrayList<String>();
 
 		try {
 			FileReader reader = new FileReader("Database.txt");
@@ -76,6 +100,7 @@ public class Database {
 		name = str.get(0);
 		GPA = Double.parseDouble(str.get(1));
 		SAT = Integer.parseInt(str.get(2));
+		point = Integer.parseInt(str.get(3));
 		
 		System.out.println("name is " + name);
 		System.out.println("GPA is " + GPA);

@@ -10,7 +10,7 @@ import College.GPACalc;
 public class Main {
 	
 	public static void main(String[] args){
-		Database.writeToDatabase(new String[] {"Lily", "4.0", "1600"});
+		Database.writeToDatabase(new String[] {"Lily", "4.0", "1600", "3"});
 		double grade = GPACalc.weightedGPA(20, 1, 0, 0, 0, 6);
 		System.out.println(grade);
 		
