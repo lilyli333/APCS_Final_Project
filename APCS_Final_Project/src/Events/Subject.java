@@ -10,7 +10,7 @@ public class Subject {
 		this.gradePercentage = gradePercentage;
 	}
 	
-	public String getSubjectName() {
+	public String getName() {
 		return subjectName;
 	}
 	

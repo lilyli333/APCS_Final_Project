@@ -6,9 +6,8 @@ public class AssignmentList {
 	
 	private ArrayList<Assignment> assignments;
 	
-	public AssignmentList(ArrayList<Assignment> a)
-	{
-		assignments = a;
+	public AssignmentList() {
+		assignments = new ArrayList<Assignment>();
 	}
 	
 	public void deleteAssignment(String assignmentName)
