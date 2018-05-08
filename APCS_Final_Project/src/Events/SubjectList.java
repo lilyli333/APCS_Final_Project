@@ -28,4 +28,8 @@ public class SubjectList {
 		}
 	}
 	
+	public ArrayList<Subject> getList() {
+		return subjects;
+	}
+	
 }

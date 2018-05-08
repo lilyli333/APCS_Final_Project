@@ -44,5 +44,9 @@ public class AssignmentList {
 		
 	}
 	
+	public ArrayList<Assignment> getList() {
+		return assignments;
+	}
+	
 
 }
