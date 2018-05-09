@@ -1,5 +1,10 @@
 package Events;
 
+/**
+ * This class represents the subjects/courses of the student, w subject name and the grade the student has in it
+ * @author Helen
+ *
+ */
 public class Subject {
 	
 	private String subjectName;

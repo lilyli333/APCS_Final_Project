@@ -1,11 +1,16 @@
 package Events;
 
+/**
+ * This class represents non-assignment activites (ie. extracurriculars, sports, free time)
+ * It has a name, type, and start/end times
+ * @author Helen
+ */
 public class Activity {
 	private String activityName;
 	private String activityType;
 	private int startSeconds, endSeconds;
 	
-	/*
+	/**
 	 * @param activityName String of the activity name
 	 * @param start Array for the start time, w/ start hours, min, and seconds at positions 0, 1, 2, respectively
 	 * @param end Array for the start time, w/ end hours, min, and seconds at positions 0, 1, 2, respectively

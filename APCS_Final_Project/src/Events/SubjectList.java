@@ -2,6 +2,11 @@ package Events;
 
 import java.util.ArrayList;
 
+/**
+ * This is a list of Subjects
+ * @author Helen
+ *
+ */
 public class SubjectList {
 
 	private ArrayList<Subject> subjects;
