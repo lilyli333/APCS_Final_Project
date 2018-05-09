@@ -15,6 +15,11 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
 
+/**
+ * Signing in + registering info in the database
+ * @author kumawat ajay Youtube tutorial
+ *
+ */
 public class SignIn {
 
 	private JFrame frame;

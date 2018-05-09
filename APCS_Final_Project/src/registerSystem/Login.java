@@ -22,6 +22,11 @@ import java.sql.Statement;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
 
+/**
+ * Screen where you can enter in info to get started
+ * @author kumawat ajay Youtube tutorial
+ *
+ */
 public class Login {
 
 	private JFrame frame;

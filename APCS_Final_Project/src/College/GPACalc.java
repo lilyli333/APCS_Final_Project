@@ -1,6 +1,7 @@
 package College;
 /**
- * 
+ * This represents a GPA Calculator with methods to calculator weighted/unweighted
+ * GPA and grades
  * @author lilili
  *
  */

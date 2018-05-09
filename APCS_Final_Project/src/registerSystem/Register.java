@@ -14,6 +14,11 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+/**
+ * Home page
+ * @author Anushka (based on kumawat ajay Youtube tutorial)
+ *
+ */
 public class Register {
 
 	private JFrame frame;

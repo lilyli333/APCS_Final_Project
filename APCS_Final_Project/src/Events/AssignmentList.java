@@ -2,6 +2,11 @@ package Events;
 
 import java.util.ArrayList;
 
+/**
+ * This is a list of assignments
+ * @author hwang635
+ *
+ */
 public class AssignmentList {
 	
 	private ArrayList<Assignment> assignments;

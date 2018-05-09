@@ -1,5 +1,11 @@
 package Events;
 
+/**
+ * This represents assignments/tasks to be completed
+ * It has times, whether it is done, names, points, and priority level
+ * @author Anushka
+ *
+ */
 public class Assignment {
 
 	private int timeLimit;
