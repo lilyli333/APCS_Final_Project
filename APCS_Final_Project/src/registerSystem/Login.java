@@ -23,7 +23,8 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 
 /**
- * Screen where you can enter in info to get started
+ * Screen where you can enter in info to get started. THIS IS THE 
+ * MAIN METHOD RUN THIS
  * @author kumawat ajay Youtube tutorial
  *
  */
