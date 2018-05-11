@@ -1,4 +1,4 @@
-package College;
+package college;
 
 import java.io.InputStream;
 import java.net.URL;

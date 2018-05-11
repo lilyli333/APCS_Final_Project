@@ -1,4 +1,4 @@
-package Events;
+package events;
 
 /**
  * This represents assignments/tasks to be completed

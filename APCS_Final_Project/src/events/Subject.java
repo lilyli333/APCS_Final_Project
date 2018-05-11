@@ -1,4 +1,4 @@
-package Events;
+package events;
 
 /**
  * This class represents the subjects/courses of the student, w subject name and the grade the student has in it

@@ -1,4 +1,4 @@
-package Events;
+package events;
 
 /**
  * This class represents non-assignment activites (ie. extracurriculars, sports, free time)

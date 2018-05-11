@@ -1,4 +1,4 @@
-package College;
+package college;
 /**
  * This represents a GPA Calculator with methods to calculator weighted/unweighted
  * GPA and grades
