@@ -3,7 +3,7 @@ package events;
 /**
  * This represents assignments/tasks to be completed
  * It has times, whether it is done, names, points, and priority level
- * @author Anushka, Helen for the getPoints method
+ * @author Anushka, Helen
  *
  */
 public class Assignment {
@@ -69,10 +69,28 @@ public class Assignment {
 	 */
 	public int getPoints() {
 		//points for time
-		int timePoints = timeTaken/timeLimit;
-		//points for star (the number of stars)
+		double diff = timeTaken-timeLimit;
+		double percentage = diff/timeLimit; 
+		double timePoints = pointsPossible/2; 
 		
-		 return 0;
+		if(percentage <= -0.5) 
+			return pointsPossible;
+		else if(percentage <= -0.25)
+			return (int) (pointsPossible/2 + 7/8*timePoints);
+		else if(percentage <= 0)
+			return (int) (pointsPossible/2 + 6/8*timePoints);
+		else if(percentage <= 0.25)
+			return (int) (pointsPossible/2 + 5/8*timePoints);
+		else if(percentage <= 0.5)
+			return (int) (pointsPossible/2 + 4/8*timePoints);
+		else if(percentage <= 0.75)
+			return (int) (pointsPossible/2 + 3/8*timePoints);
+		else if(percentage <= 0.875)
+			return (int) (pointsPossible/2 + 2/8*timePoints);
+		else if(percentage <= 0.9375)
+			return (int) (pointsPossible/2 + 1/8*timePoints);
+		else
+			return (int) (pointsPossible/2);
 	}
 
 	public String getTitle() {

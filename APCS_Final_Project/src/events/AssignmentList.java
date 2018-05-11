@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * This is a list of assignments
- * @author hwang635
+ * @author Anushka, Helen
  *
  */
 public class AssignmentList {
@@ -53,5 +53,12 @@ public class AssignmentList {
 		return assignments;
 	}
 	
+	public Assignment getAssignment(int index) {
+		return assignments.get(index);
+	}
+	
+	public int size() {
+		return assignments.size();
+	}
 
 }
