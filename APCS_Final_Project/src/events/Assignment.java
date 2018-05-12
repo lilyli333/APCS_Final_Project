@@ -97,7 +97,7 @@ public class Assignment {
 		return title;
 	}
 
-	public void setTitle(String title) {
+	public void rename(String title) {
 		this.title = title;
 	}
 }
