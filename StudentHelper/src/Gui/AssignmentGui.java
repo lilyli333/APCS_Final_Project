@@ -1,5 +1,9 @@
 package Gui;
 
+/**
+ * graphics interface for assignments - user enters in assignment info, creates assignment object from the class, then displays them
+ * @author Anushka
+ */
 import javax.swing.JPanel;
 import javax.swing.JLabel;
 import javax.swing.JList;

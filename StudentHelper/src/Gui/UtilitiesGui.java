@@ -1,5 +1,8 @@
 package Gui;
 
+/**
+ * gui for calculator (math operations) and time operatons
+ */
 import java.awt.Color;
 
 import javax.swing.JFrame;

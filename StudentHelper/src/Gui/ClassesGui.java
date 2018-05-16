@@ -12,6 +12,11 @@ import javax.swing.ImageIcon;
 import java.awt.Font;
 import javax.swing.JTextField;
 
+/**
+ * class for displaying subjects, uses subject objects that the user enters in info for
+ * @author anushka, hwang635
+ *
+ */
 public class ClassesGui extends JPanel {
 
 	private JFrame frame;

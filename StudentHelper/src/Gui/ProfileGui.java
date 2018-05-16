@@ -1,5 +1,8 @@
 package Gui;
 
+/**
+ * graphics for the user profile, where user edits their information
+ */
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
