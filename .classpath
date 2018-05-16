@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="APCS_Final_Project/src"/>
+	<classpathentry exported="true" kind="lib" path="StudentHelper/h2-1.4.196.jar"/>
+	<classpathentry kind="lib" path="StudentHelper/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="StudentHelper/jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="StudentHelper/jgoodies-forms-1.8.0.jar"/>
+	<classpathentry kind="lib" path="StudentHelper/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="APCS_Final_Project/bin"/>
 </classpath>
