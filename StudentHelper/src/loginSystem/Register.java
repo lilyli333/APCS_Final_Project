@@ -16,7 +16,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
 
-public class SignIn extends JPanel{
+public class Register extends JPanel{
 
 	private JFrame frame;
 	private JTextField userName;
@@ -28,7 +28,7 @@ public class SignIn extends JPanel{
 	/**
 	 * Create the application.
 	 */
-	public SignIn() {
+	public Register() {
 		initialize();
 	}
 

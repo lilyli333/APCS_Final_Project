@@ -107,7 +107,7 @@ public class Login extends JPanel {
 		JButton signInButton = new JButton("Register");
 		signInButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				SignIn window = new SignIn();
+				Register window = new Register();
 				frame.dispose();
 				frame.add(window);
 			}
