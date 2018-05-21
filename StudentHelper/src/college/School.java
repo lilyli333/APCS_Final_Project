@@ -26,4 +26,12 @@ public class School {
 		return admissionRate;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
+	public String getLocation() {
+		return city + ", " + state;
+	}
+	
 }
