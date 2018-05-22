@@ -1,7 +1,9 @@
 package Gui;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
+import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -16,9 +18,10 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 
-public class GPACalculatorGui extends JFrame {
+public class GPACalculatorGui extends JPanel {
 
 	private JPanel contentPane;
+	private JFrame frame;
 
 	/**
 	 * Launch the application.
@@ -40,12 +43,15 @@ public class GPACalculatorGui extends JFrame {
 	 * Create the frame.
 	 */
 	public GPACalculatorGui() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frame.setBounds(100, 100, 650, 200);
 		contentPane = new JPanel();
+		contentPane.setBackground(new Color(240, 255, 255));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
-		setContentPane(contentPane);
+		frame.setContentPane(contentPane);
+		contentPane.setLayout(new BorderLayout());
+		frame.setVisible(true);
 		
 		JPanel panel = new JPanel();
 		contentPane.add(panel, BorderLayout.NORTH);

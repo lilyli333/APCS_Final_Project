@@ -1,11 +1,13 @@
 package college;
 import java.util.ArrayList;
+
+import javax.swing.JPanel;
 /**
  * 
  * @author lilili
  *
  */
-public class ChanceCalculator {
+public class ChanceCalculator{
 	
 	private ArrayList<School> schools;
 	private Search search;
